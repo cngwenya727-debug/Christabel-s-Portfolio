@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background-size: cover;
+    background-position: url center;
+    background-image:url("./download\ \(1\).jpg");
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:linear-gradient(to right, #051f20, #000b2b26) ;
+    padding:15px 50px;
+}
+
+nav h2{
+    color:#a3a6af;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:rgb(230, 224, 224);
+    text-decoration:none;
+}
+
+
+
+
+.profile{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+#skills ul{
+    list-style:none;
+}
+
+#skills li{
+    margin:10px 0;
+}
+body{
+    margin:0;
+    overflow-x: hidden;
+    color:rgb(236, 225, 225);
+}
+
+
+
+button{
+    background-color: linear-gradient(to right, #051f20, #000b2b26);
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: 10;
+    align-content: center;
+    color: rgb(17, 17, 17);
+    border: 1px solid rgb(17, 65, 38);
+}
+
+.text{
+    font-size: 30px;
+    align-content: center;
+    padding: 50px;
+    
+
+
+
+}
+
+.banner{
+    font-size: 30px ;
+}
+.projects{
+    font-size: 30px;
+}
+.skills{
+    font-size: 30px;
+}
+.contact{
+    font-size: 30px;
+}
+
+.skills,
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.card{
+    background: linear-gradient(to right, #051f20, #a3a6af);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #fbfbfb;
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.about p{
+    max-width: 800px;
+    margin: 30px auto;
+    line-height: 1.8;
+    font-size: 22px;
+}
+section{
+    font-size: 45px;
+    font-weight: bold;
+}
